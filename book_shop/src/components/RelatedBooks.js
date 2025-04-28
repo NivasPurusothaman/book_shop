@@ -20,7 +20,7 @@ function RelatedBooks() {
   return (
     <div>
       <div className="flex justify-content-between align-items-center mb-3">
-        <h3>Trending Now</h3>
+        <h3>Related Books</h3>
         <span
           className="text-cyan-500 font-bold underline cursor-pointer"
           onClick={() => setShowAll(!showAll)}

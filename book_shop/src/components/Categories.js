@@ -23,7 +23,7 @@ function Categories() {
   };
 
   return (
-    <div className="ml-5 mr-5 mb-3">
+    <div className="ml-3 mr-3 mb-3">
       <div className="flex justify-content-between align-items-center">
         <h3>Categories</h3>
         <span

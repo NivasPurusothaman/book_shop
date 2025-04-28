@@ -18,7 +18,7 @@ function Trending() {
   const visibleItems = showAll ? shuffledBooks : shuffledBooks.slice(0, 6);
 
   return (
-    <div className="ml-5 mr-5">
+    <div className="ml-3 mr-3 mb-3">
       <div className="flex justify-content-between align-items-center mb-3">
         <h3>Trending Now</h3>
         <span
