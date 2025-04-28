@@ -1,10 +1,12 @@
-
+import Main from "./components/Main";
+import { StoreProvider } from "easy-peasy";
+import store from "./store.js";
 
 function App() {
   return (
-    <div>
-      Hello World!..
-    </div>
+    <StoreProvider store={store}>
+      <Main />
+    </StoreProvider>
   );
 }
 

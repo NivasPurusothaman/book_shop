@@ -1,0 +1,55 @@
+.bookCard {
+    position: relative;
+}
+
+.heartCircle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 8px 12px 5px 12px;
+}
+
+.buyNowBtn {
+    color: white;
+    background-color: #40C0C6;
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.addCartBtn {
+    color: #40C0C6;
+    border: 2px solid #40C0C6;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.likeBtn {
+    color: #40C0C6;
+    border: 2px solid #40C0C6;
+    padding: 8px 15px;
+    height: 43px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.backBtn {
+    color: white;
+    background-color: #40C0C6;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.p-tabview-nav a {
+    text-decoration: none !important;
+    color: #40C0C6;
+}
+
+.p-tabview-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+}
